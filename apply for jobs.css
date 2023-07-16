@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#page img{
+    width: 250px;
+    margin-top: 1rem;
+}
+
+.icon-link{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.icon-company a{
+    background-color: blue;
+    color: #fff;
+    padding: 0.8rem 1rem;
+    font-size: 1.3rem;
+}
+
+ul{
+    display: flex;
+    margin-left: 1rem;
+    
+}
+.icon-link ul li a{
+    color:#000;
+    padding: 0 0.5rem;
+    font-size:1.2rem ;
+}
+ .join{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+}
+.work{
+    margin: auto;
+    background-color: blue;
+    margin-top: 2rem;
+    position: relative;
+
+}
+
+h1 {
+    position: absolute;
+    top: 6rem;
+    left: 27%;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.work  p {
+    position: absolute;
+    top: 12.5rem;
+    left: 31%;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+button{
+    position: absolute;
+    top: 18rem  ;
+    left: 42%;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem ;
+    cursor: pointer;
+}
+ h2{ 
+    text-align : center;
+    margin-top: 2rem;
+    font-size: 3.4rem;
+    font-weight: 400;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+    
+}
+.department{
+    display: flex;
+    padding:0  1rem;
+}
+.locations{
+    display: flex;
+}
+h3{
+    padding: 0 0.8rem;
+    font-family: 400;
+}
+
+select{
+    font-size: 1.2rem;
+}
+.lock{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem ;
+}
+h4{
+    font-size: 1.3rem;
+}
+.icons a{
+     color: #000;
+}
+.icons i{
+    color:#000;
+    padding:0 0.2rem;
+}
+.achor a{
+    align-items: center;
+    background-color:grey;
+    padding:0.4rem 2rem;
+    color: #fff;
+}
+
+.lock:hover{
+    border: 2px solid;
+    margin: 0 6rem;
+    height: 6.5rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:grey;
+    height:100px;
+    margin-top:1rem;    
+}
+.footer p{
+    padding: 0 0.7rem; 
+}
+.span{
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+    border-left: 2.6px solid;
+    height: 20px;
+}
+
+
+
+
+
+
